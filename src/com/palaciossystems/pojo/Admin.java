@@ -22,6 +22,15 @@ public class Admin {
 		this.fechaCreacion = fechaCreacion;
 	}
 
+	
+
+	public Admin(int idAd, String nombre, String cargo, Timestamp fechaCreacion) {
+		this.idAd = idAd;
+		this.nombre = nombre;
+		this.cargo = cargo;
+		this.fechaCreacion = fechaCreacion;
+	}
+
 
 
 	public int getIdAd() {
